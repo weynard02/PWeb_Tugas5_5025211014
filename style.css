@@ -1,0 +1,9 @@
+body {
+    padding-top: 20px;
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgb(240, 184, 184) 35%, rgb(250, 109, 109) 100%);
+}
+
+.hoverable:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
